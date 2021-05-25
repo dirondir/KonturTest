@@ -1,0 +1,2 @@
+rootProject.name = "Kontur test"
+include ':app'

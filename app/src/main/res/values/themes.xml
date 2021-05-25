@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.KonturTest" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/PrimaryTextStyle</item>
+    </style>
+
+    <style name="PrimaryTextStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColorLink">@color/light_blue</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="SecondaryTextStyle" parent="PrimaryTextStyle">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="AdditionalInfoTextStyle" parent="SecondaryTextStyle">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="PrimaryTextStyle">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+</resources>
